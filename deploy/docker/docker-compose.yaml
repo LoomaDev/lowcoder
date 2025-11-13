@@ -21,7 +21,7 @@ services:
       - path: ./override.env
         required: false
     ports:
-      - "3000:3000"
+      - "3025:3025"
       - "3443:3443"
     #  - "27017:27017"
     volumes:
